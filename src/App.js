@@ -95,8 +95,8 @@ function App({ user, signOut }) {
       <header
         className="App-header"
         style={{
-          paddingTop: "3rem",
-          paddingBottom: "3rem",
+          paddingTop: "4rem",
+          paddingBottom: "4rem",
         }}
       >
         {showForm && (
