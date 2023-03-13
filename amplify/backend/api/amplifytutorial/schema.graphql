@@ -1,0 +1,10 @@
+type Pet @model @auth(rules: [{allow: owner}, {allow: groups, groups: ["Admin"], operations: [read, create, update]}, {allow: public}]) {
+  id: ID!
+  name: String!
+  age: Int
+  breed: String
+  about: String
+  image: String
+  color: String
+}
+ 
